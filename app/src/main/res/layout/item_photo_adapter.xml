@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="match_parent"
+        android:background="@drawable/nen"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/txt_setting"
+        android:layout_height="match_parent" />
+     <Button
+         android:id="@+id/btn_select"
+         android:layout_alignBaseline="@+id/img_item"
+         android:layout_alignParentBottom="true"
+         android:background="@drawable/button_custom_gradient"
+         android:text="@string/txt_select"
+         android:textSize="30sp"
+         android:textColor="@color/white"
+         android:padding="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nen2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_logo_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cl_fff900"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/cl_7DFF00"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="S"
+                android:textSize="40dp"
+                android:textColor="#C6090F"
+                android:background="@drawable/cricle_button_gradient"
+                android:contentDescription="@string/app_name" />
+
+            <View
+                android:id="@+id/view_select"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/btn_start"
+                android:layout_toRightOf="@+id/btn_start"
+                android:background="#F351FF" />
+
+            <TextView
+                android:id="@+id/tv_setwallpaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/view_select"
+                android:layout_toRightOf="@+id/view_select"
+                android:padding="20dp"
+                android:text="@string/txt_setwallpaper"
+                android:textColor="#C6090F"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:background="#1500FF"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_photo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="P"
+                android:textColor="#FF269B"
+                android:textSize="40dp"
+                android:background="@drawable/cricle_buton_gradient_v2"
+                />
+
+            <View
+                android:id="@+id/view_create"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/btn_photo"
+                android:layout_toRightOf="@+id/btn_photo"
+                android:background="@color/lime" />
+
+            <TextView
+                android:id="@+id/tv_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/view_create"
+                android:layout_toRightOf="@+id/view_create"
+                android:padding="20dp"
+                android:textColor="#FF269B"
+                android:textSize="25sp"
+                android:text="@string/txt_photo" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:background="#00FF82"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="S"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:background="@drawable/custom_cricle_photo" />
+
+            <View
+                android:id="@+id/view_setting"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/btn_setting"
+                android:layout_toRightOf="@+id/btn_setting"
+                android:background="@color/deep_orange" />
+
+            <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/view_setting"
+                android:layout_toRightOf="@+id/view_setting"
+                android:padding="20dp"
+                android:text="@string/txt_setting"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/monney_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+</RelativeLayout>

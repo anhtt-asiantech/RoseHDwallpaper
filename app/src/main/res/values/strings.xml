@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rose Wallpaper</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3840180634112397/6186315543</string>
+
+    <string name="banner_full_screen">ca-app-pub-3840180634112397/7080471102</string>
+    <string name="txt_about">About</string>
+    <string name="txt_setting">Setting</string>
+    <string name="txt_setwallpaper">Start</string>
+
+    <string name="txt_background">Background</string>
+    <string name="txt_enable_touch">Enable Touch</string>
+    <string name="txt_share_app">Share App</string>
+    <string name="txt_rate_app">Rate</string>
+    <string name="link_app"><![CDATA[https://play.google.com/store/apps/details?id=com.anhttvn.a3droselivewallpaper&hl=en]]></string>
+    <string name="submit">Submit</string>
+    <string name="txt_about_message">The Horse live wallpaper is application Setting live wallpaper for mobile,
+        with many background  beatyfull  </string>
+    <string name="txt_photo">Photo</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_select">Select</string>
+</resources>

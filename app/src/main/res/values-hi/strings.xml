@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">गुलाब वॉलपेपर</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3840180634112397/6186315543</string>
+
+    <string name="banner_full_screen">ca-app-pub-3840180634112397/7080471102</string>
+    <string name="txt_about">About</string>
+    <string name="txt_setting">स्थापना</string>
+    <string name="txt_setwallpaper">शुरू</string>
+
+    <string name="txt_background">पृष्ठभूमि</string>
+    <string name="txt_enable_touch">टच सक्षम करें</string>
+    <string name="txt_share_app">ऐप शेयर करें</string>
+    <string name="txt_rate_app">मूल्यांकन करें</string>
+    <string name="link_app"><![CDATA[https://play.google.com/store/apps/details?id=com.anhttvn.a3droselivewallpaper&hl=en]]></string>
+    <string name="submit">Submit</string>
+    <string name="txt_about_message">The Horse live wallpaper is application Setting live wallpaper for mobile,
+        with many background  beatyfull  </string>
+    <string name="txt_photo">तस्वीर</string>
+    <string name="txt_start">शुरू</string>
+    <string name="txt_select">चुनते हैं</string>
+</resources>

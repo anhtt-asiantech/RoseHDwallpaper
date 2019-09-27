@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#BEBEBE"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_about_logo"
+            android:text="@string/txt_about"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:text="@string/txt_about_message"
+            android:layout_below="@+id/tv_about_logo"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+        <RatingBar
+            android:id="@+id/rate_about"
+            android:layout_width="wrap_content"
+            android:stepSize="0.5"
+            android:layout_below="@+id/title"
+            android:numStars="5"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/rate_about"
+            android:text="@string/submit"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/select_ll"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
