@@ -6,11 +6,11 @@ android {
     buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId "com.anhttvn.a3droselivewallpaper"
+        applicationId "com.anhttvn.roselivewallpaper"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 2
-        versionName "1.0.2"
+        versionCode 1
+        versionName "1.0.1"
     }
     buildTypes {
         release {

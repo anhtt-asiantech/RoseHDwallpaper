@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.anhttvn.roselivewallpaper.ui.BaseActivity;
 import com.anhttvn.roselivewallpaper.util.ChangeFont;
@@ -11,6 +12,7 @@ import com.anhttvn.roselivewallpaper.util.ChangeFont;
 public class Main extends BaseActivity {
 
     private Button btnStart;
+    private TextView txtVersion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +21,8 @@ public class Main extends BaseActivity {
     }
     private void init(){
         btnStart = findViewById(R.id.btnStart);
+        txtVersion = findViewById(R.id.txtVersion);
+        txtVersion.setTypeface(new ChangeFont().fontBeyond_Wonderland(this));
         btnStart.setTypeface(new ChangeFont().fontBeyond_Wonderland(this));
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override

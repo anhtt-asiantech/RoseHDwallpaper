@@ -120,7 +120,7 @@ public class SettingLiveWallpaper extends BaseActivity implements AdapterPhoto.O
 
         // Add data to the intent, the receiving app will decide
         // what to do with it.
-        share.putExtra(Intent.EXTRA_SUBJECT, "Horse Live Wallpaper");
+        share.putExtra(Intent.EXTRA_SUBJECT, "Rose Live Wallpaper");
         share.putExtra(Intent.EXTRA_TEXT, this.getResources().getString(R.string.link_app));
 
         startActivity(Intent.createChooser(share, "Share App!"));

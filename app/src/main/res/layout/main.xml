@@ -13,4 +13,15 @@
         android:textColor="@color/white"
         android:background="@drawable/custom_button_start"
         android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/txt_version"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

@@ -12,11 +12,12 @@
     <string name="txt_enable_touch">टच सक्षम करें</string>
     <string name="txt_share_app">ऐप शेयर करें</string>
     <string name="txt_rate_app">मूल्यांकन करें</string>
-    <string name="link_app"><![CDATA[https://play.google.com/store/apps/details?id=com.anhttvn.a3droselivewallpaper&hl=en]]></string>
+    <string name="link_app"><![CDATA[https://play.google.com/store/apps/details?id=com.anhttvn.roselivewallpaper&hl=hi]]></string>
     <string name="submit">Submit</string>
     <string name="txt_about_message">The Horse live wallpaper is application Setting live wallpaper for mobile,
         with many background  beatyfull  </string>
     <string name="txt_photo">तस्वीर</string>
     <string name="txt_start">शुरू</string>
     <string name="txt_select">चुनते हैं</string>
+    <string name="txt_version">संस्करण: 1.0.1</string>
 </resources>

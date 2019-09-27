@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:358338756030:android:8c4289c744452454",
         "android_client_info": {
-          "package_name": "com.anhttvn.a3droselivewallpaper"
+          "package_name": "com.anhttvn.roselivewallpaper"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "358338756030-ik5eesmi8t9c9n16t2va50rohus3j7er.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.anhttvn.a3droselivewallpaper",
+            "package_name": "com.anhttvn.roselivewallpaper",
             "certificate_hash": "d1df58361f86094e8b31971fccbb3bc209324591"
           }
         },

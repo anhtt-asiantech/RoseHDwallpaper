@@ -3,4 +3,4 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:description="@string/app_name"
     android:settingsActivity="com.anhttvn.a3droselivewallpaper.ui.SettingLiveWallpaper"
-    android:thumbnail="@drawable/logo_rose"/>
+    android:thumbnail="@drawable/logo"/>

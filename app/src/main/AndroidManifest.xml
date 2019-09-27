@@ -9,13 +9,13 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo_rose"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/logo_rose"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name="com.anhttvn.roselivewallpaper.util.RoseLiveWallpaperService"
+            android:name=".util.RoseLiveWallpaperService"
             android:enabled="true"
             android:label="Horse Live Wallpaper"
             android:permission="android.permission.BIND_WALLPAPER" >
@@ -28,24 +28,24 @@
             </meta-data>
         </service>
 
-        <activity android:name="com.anhttvn.roselivewallpaper.Main">
+        <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.anhttvn.roselivewallpaper.MainActivity"
+        <activity android:name=".MainActivity"
             android:screenOrientation="portrait"
             />
-        <activity android:name="com.anhttvn.roselivewallpaper.ui.Setting"
+        <activity android:name=".ui.Setting"
             android:screenOrientation="portrait"
             />
-        <activity android:name="com.anhttvn.roselivewallpaper.ui.SettingLiveWallpaper"
+        <activity android:name=".ui.SettingLiveWallpaper"
             android:exported="true"
             android:label="@string/app_name"
             />
-        <activity android:name="com.anhttvn.roselivewallpaper.ui.ActivityPhoto"
+        <activity android:name=".ui.ActivityPhoto"
             android:screenOrientation="portrait"
             />
         <activity android:name="com.google.android.gms.ads.AdActivity"
