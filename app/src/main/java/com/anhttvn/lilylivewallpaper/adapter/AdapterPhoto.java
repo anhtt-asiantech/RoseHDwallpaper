@@ -1,4 +1,4 @@
-package com.anhttvn.roselivewallpaper.adapter;
+package com.anhttvn.lilylivewallpaper.adapter;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 
-import com.anhttvn.roselivewallpaper.R;
+import com.anhttvn.lilylivewallpaper.R;
 
 import java.io.IOException;
 import java.io.InputStream;

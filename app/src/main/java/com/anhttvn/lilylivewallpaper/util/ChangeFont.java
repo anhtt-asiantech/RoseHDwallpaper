@@ -1,4 +1,4 @@
-package com.anhttvn.roselivewallpaper.util;
+package com.anhttvn.lilylivewallpaper.util;
 
 import android.content.Context;
 import android.graphics.Typeface;

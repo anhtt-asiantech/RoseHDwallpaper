@@ -1,4 +1,4 @@
-package com.anhttvn.roselivewallpaper.util;
+package com.anhttvn.lilylivewallpaper.util;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

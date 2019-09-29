@@ -1,4 +1,4 @@
-package com.anhttvn.roselivewallpaper;
+package com.anhttvn.lilylivewallpaper;
 
 import org.junit.Test;
 

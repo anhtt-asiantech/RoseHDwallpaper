@@ -1,4 +1,4 @@
-package com.anhttvn.roselivewallpaper.ui;
+package com.anhttvn.lilylivewallpaper.ui;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -11,10 +11,10 @@ import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.anhttvn.roselivewallpaper.R;
-import com.anhttvn.roselivewallpaper.adapter.AdapterPhoto;
-import com.anhttvn.roselivewallpaper.util.ChangeFont;
-import com.anhttvn.roselivewallpaper.util.SharePrenFile;
+import com.anhttvn.lilylivewallpaper.R;
+import com.anhttvn.lilylivewallpaper.adapter.AdapterPhoto;
+import com.anhttvn.lilylivewallpaper.util.ChangeFont;
+import com.anhttvn.lilylivewallpaper.util.SharePrenFile;
 import com.google.android.gms.ads.AdView;
 
 import java.io.IOException;
