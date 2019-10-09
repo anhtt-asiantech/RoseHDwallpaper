@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper.ui;
+package com.anhttvn.roselivewallpaper.ui;
 
 import android.app.WallpaperManager;
 import android.content.ComponentName;
@@ -7,10 +7,10 @@ import android.os.Bundle;
 
 import androidx.viewpager.widget.ViewPager;
 
-import com.anhttvn.lilylivewallpaper.R;
-import com.anhttvn.lilylivewallpaper.adapter.AdapterViewPager;
-import com.anhttvn.lilylivewallpaper.util.RoseLiveWallpaperService;
-import com.anhttvn.lilylivewallpaper.util.SharePrenFile;
+import com.anhttvn.roselivewallpaper.R;
+import com.anhttvn.roselivewallpaper.adapter.AdapterViewPager;
+import com.anhttvn.roselivewallpaper.util.RoseLiveWallpaperService;
+import com.anhttvn.roselivewallpaper.util.SharePrenFile;
 import com.google.android.gms.ads.AdView;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper;
+package com.anhttvn.roselivewallpaper;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.anhttvn.lilylivewallpaper.ui.BaseActivity;
-import com.anhttvn.lilylivewallpaper.util.ChangeFont;
+import com.anhttvn.roselivewallpaper.ui.BaseActivity;
+import com.anhttvn.roselivewallpaper.util.ChangeFont;
 
 public class Main extends BaseActivity {
 

@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper.util;
+package com.anhttvn.roselivewallpaper.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

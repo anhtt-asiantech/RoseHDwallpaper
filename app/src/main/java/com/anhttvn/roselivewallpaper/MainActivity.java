@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper;
+package com.anhttvn.roselivewallpaper;
 
 import android.app.Dialog;
 import android.app.WallpaperManager;
@@ -11,12 +11,12 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.anhttvn.lilylivewallpaper.ui.ActivityPhoto;
-import com.anhttvn.lilylivewallpaper.ui.BaseActivity;
-import com.anhttvn.lilylivewallpaper.ui.SettingLiveWallpaper;
-import com.anhttvn.lilylivewallpaper.util.ChangeFont;
-import com.anhttvn.lilylivewallpaper.util.RoseLiveWallpaperService;
-import com.anhttvn.lilylivewallpaper.util.SharePrenFile;
+import com.anhttvn.roselivewallpaper.ui.ActivityPhoto;
+import com.anhttvn.roselivewallpaper.ui.BaseActivity;
+import com.anhttvn.roselivewallpaper.ui.SettingLiveWallpaper;
+import com.anhttvn.roselivewallpaper.util.ChangeFont;
+import com.anhttvn.roselivewallpaper.util.RoseLiveWallpaperService;
+import com.anhttvn.roselivewallpaper.util.SharePrenFile;
 import com.google.android.gms.ads.AdView;
 
 

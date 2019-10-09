@@ -1,9 +1,9 @@
-package com.anhttvn.lilylivewallpaper.ui;
+package com.anhttvn.roselivewallpaper.ui;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-import com.anhttvn.lilylivewallpaper.R;
+import com.anhttvn.roselivewallpaper.R;
 
 import androidx.annotation.Nullable;
 

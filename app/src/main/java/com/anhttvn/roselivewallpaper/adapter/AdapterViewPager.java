@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper.adapter;
+package com.anhttvn.roselivewallpaper.adapter;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,8 +12,8 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.anhttvn.lilylivewallpaper.R;
-import com.anhttvn.lilylivewallpaper.util.ChangeFont;
+import com.anhttvn.roselivewallpaper.R;
+import com.anhttvn.roselivewallpaper.util.ChangeFont;
 
 import java.io.IOException;
 import java.io.InputStream;

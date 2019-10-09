@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper;
+package com.anhttvn.roselivewallpaper;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

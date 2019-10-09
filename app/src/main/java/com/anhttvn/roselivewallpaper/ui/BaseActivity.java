@@ -1,12 +1,12 @@
-package com.anhttvn.lilylivewallpaper.ui;
+package com.anhttvn.roselivewallpaper.ui;
 
 import android.app.Activity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.anhttvn.lilylivewallpaper.R;
-import com.anhttvn.lilylivewallpaper.util.InternetConnection;
+import com.anhttvn.roselivewallpaper.R;
+import com.anhttvn.roselivewallpaper.util.InternetConnection;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;

@@ -1,4 +1,4 @@
-package com.anhttvn.lilylivewallpaper.ui;
+package com.anhttvn.roselivewallpaper.ui;
 
 import android.os.Bundle;
 
