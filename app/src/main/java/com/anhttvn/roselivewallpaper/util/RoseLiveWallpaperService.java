@@ -7,6 +7,7 @@ import android.graphics.Movie;
 import android.os.Handler;
 import android.service.wallpaper.WallpaperService;
 import android.util.DisplayMetrics;
+import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 
 import java.io.BufferedInputStream;
@@ -116,5 +117,14 @@ public class RoseLiveWallpaperService extends WallpaperService {
             this.visible = false;
             handler.removeCallbacks(drawGIF);
         }
+        @Override
+        public void onSurfaceCreated(SurfaceHolder holder) {
+            super.onSurfaceCreated(holder);
+        }
+        @Override
+        public void onTouchEvent(MotionEvent event){
+            super.onTouchEvent(event);
+        }
+
     }
 }
