@@ -44,7 +44,6 @@ public class SettingLiveWallpaper extends BaseActivity implements AdapterPhoto.O
         mSharePrenFile = new SharePrenFile(this);
         mPosition = mSharePrenFile.getBg("bg");
         mCheckBok.setChecked(mSharePrenFile.getTouch("touch"));
-        runFullBanner();
 
     }
     private void init(){
@@ -131,13 +130,11 @@ public class SettingLiveWallpaper extends BaseActivity implements AdapterPhoto.O
         mAdapter.notifyDataSetChanged();
         dialog.dismiss();
         mSharePrenFile.saveBg(position,"bg");
-        showADS();
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        showADS();
     }
 }
 
