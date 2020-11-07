@@ -45,7 +45,6 @@ public class AdapterViewPager extends PagerAdapter implements View.OnClickListen
         View itemView = LayoutInflater.from(mContext).inflate(R.layout.item_photo_adapter, container, false);
 
         ImageView imageView = itemView.findViewById(R.id.img_item);
-        Button btn_select = itemView.findViewById(R.id.btn_select);
 
         InputStream inputstream= null;
         try {
@@ -57,9 +56,6 @@ public class AdapterViewPager extends PagerAdapter implements View.OnClickListen
         Drawable drawable = Drawable.createFromStream(inputstream, null);
         imageView.setImageDrawable(drawable);
         container.addView(itemView);
-        btn_select.setTypeface(new ChangeFont().fontBeyond_Wonderland(mContext));
-        btn_select.setOnClickListener(this);
-        btn_select.setTag(position);
         return itemView;
     }
 
@@ -71,11 +67,11 @@ public class AdapterViewPager extends PagerAdapter implements View.OnClickListen
     @Override
     public void onClick(View view) {
         int position = Integer.parseInt(view.getTag() + "");
-        switch (view.getId()){
-            case R.id.btn_select:
-                mOnclick.clickSelect(position);
-                break;
-        }
+//        switch (view.getId()){
+//            case R.id.btn_select:
+//                mOnclick.clickSelect(position);
+//                break;
+//        }
     }
     public interface Onclick{
         void clickSelect(int position);

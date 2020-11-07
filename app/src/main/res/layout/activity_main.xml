@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/nen2"
+    android:background="@drawable/d"
     android:layout_height="match_parent">
 
     <LinearLayout
