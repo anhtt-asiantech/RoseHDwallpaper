@@ -9,8 +9,8 @@ android {
         applicationId "com.anhttvn.roselivewallpaper"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.0.3"
+        versionCode 5
+        versionName "1.0.5"
     }
     buildTypes {
         release {
@@ -33,7 +33,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-ads:15.0.1'
     implementation 'com.google.firebase:firebase-core:16.0.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
+    implementation "androidx.cardview:cardview:1.0.0"
 
     compileOnly 'org.projectlombok:lombok:1.18.2'
     annotationProcessor 'org.projectlombok:lombok:1.18.2'
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
 }
